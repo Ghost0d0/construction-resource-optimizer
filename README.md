@@ -126,6 +126,7 @@ construction-resource-optimizer/
 ├── app/
 │   └── streamlit_app.py           ← Interactive dashboard
 │
+├── assets/                        ← Dashboard screenshots
 ├── requirements.txt
 ├── README.md
 └── LICENSE
@@ -144,7 +145,7 @@ construction-resource-optimizer/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/construction-resource-optimizer.git
+git clone https://github.com/Ghost0d0/construction-resource-optimizer.git
 cd construction-resource-optimizer
 
 # 2. Create a virtual environment (recommended)
@@ -228,15 +229,17 @@ Avg Utilisation:  94%
 
 ## Dashboard Screenshots
 
-The Streamlit dashboard provides five interactive views:
+### Gantt Schedule
+![Gantt](assets/gantt.png)
 
-1. **📅 Schedule** — Gantt chart with phase-colour coding + task detail table
-2. **👷 Workers** — Required vs allocated bar chart + labour efficiency KPIs
-3. **🔧 Equipment** — Utilisation pie chart + equipment assignment schedule
-4. **💰 Costs** — Stacked cost breakdown (labour / equipment / overhead) per task
-5. **📊 Scenarios** — Dual-axis line chart: workers available vs cost & makespan
+### Worker Allocation
+![Workers](assets/workers.png)
 
-**Sidebar controls** allow real-time re-optimisation with different worker counts (10–80) and equipment units (3–20).
+### Cost Breakdown
+![Costs](assets/costs.png)
+
+### Scenario Analysis
+![Scenarios](assets/scenarios.png)
 
 ---
 
