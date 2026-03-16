@@ -4,7 +4,6 @@
 
 A research-grade Python application that applies **Mixed-Integer Linear Programming (MILP)** to optimise the allocation of labour, equipment, and time across construction project phases — minimising project makespan while respecting resource constraints and task precedence relationships.
 
-Built as an MSc application portfolio project in Construction Management & Engineering.
 
 ---
 
@@ -292,9 +291,9 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Developed as an MSc research portfolio project in Construction Management & Engineering.  
+Developed by Dan.Ghost0  
 Demonstrates the application of Operations Research, Decision Support Systems, and Construction Planning methodologies.
 
 ---
 
-*Construction Resource Optimization System · Operations Research in Construction Management · 2024*
+*Construction Resource Optimization System · Operations Research in Construction Management · 2026*
